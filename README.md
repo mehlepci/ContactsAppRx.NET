@@ -162,28 +162,33 @@ public UpdateContactViewModel(Contact contact, ContactList contactList)
 ```
 - `_tempContactSubject` is a `BehaviorSubject` that provides the latest contact details to subscribers.
 
-### 6. Operators
+### 6. Insights
 
-**Definition:**
-- Operators are used to transform, filter, combine, and manipulate observable sequences.
+#### Filtering
+**Filtering** allows you to selectively process items from an observable sequence based on specific conditions.
+- **Where**: Filters items that meet a condition.
+- **Take**: Captures only the first `n` items in the sequence.
+- **Skip**: Ignores the first `n` items in the sequence.
 
-**Common Operators:**
-- **Select:** Transforms emitted values.
-  ```csharp
-  var names = contacts.Select(c => c.FirstName);
-  ```
-- **Where:** Filters values based on a condition.
-  ```csharp
-  var favorites = contacts.Where(c => c.IsFavorite);
-  ```
-- **Merge:** Combines multiple observables into one.
-  ```csharp
-  var merged = Observable.Merge(observable1, observable2);
-  ```
-- **Throttle:** Limits the emission of values to avoid overwhelming subscribers.
-  ```csharp
-  var throttled = observable.Throttle(TimeSpan.FromSeconds(1));
-  ```
+#### Transformation
+**Transformation** modifies the items in an observable sequence to create a new sequence with transformed data.
+- **Select**: Projects each item into a new form.
+- **SelectMany**: Maps each item to another sequence and flattens the results into one sequence.
+
+#### Aggregation
+**Aggregation** combines multiple items from an observable sequence into a single result.
+- **Aggregate**: Reduces the sequence into a single value using a specified accumulator function.
+- **Count**: Returns the number of items in the sequence.
+
+#### Partitioning
+**Partitioning** divides an observable sequence into smaller groups or segments.
+- **GroupBy**: Groups items based on a specified key.
+- **Buffer**: Collects items into fixed-size batches.
+
+#### Combining Sequences
+**Combining Sequences** merges or joins multiple observable sequences into one, allowing you to work with them together.
+- **Merge**: Combines several sequences into a single sequence by interleaving their emissions.
+- **Zip**: Combines items from multiple sequences into pairs or tuples.
 
 ### 7. Schedulers
 
