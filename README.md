@@ -1,3 +1,7 @@
+Here's the updated version of your presentation with the added part about `ReactiveCommand`.
+
+---
+
 ## Contacts App
 
 This project is a Contacts Management application built using the MVVM (Model-View-ViewModel) pattern in WPF, and it's enhanced with Rx.NET for reactive programming.
@@ -16,6 +20,7 @@ This project is a Contacts Management application built using the MVVM (Model-Vi
 Rx.NET is used in this project to simplify the process of managing and reacting to changes in data streams, making the application more robust and responsive.
 
 ### 1. What is Rx.NET?
+
 **Definition:**
 - Rx.NET (Reactive Extensions for .NET) is a library for composing asynchronous and event-based programs using observable sequences.
 - It is part of the broader Reactive Extensions framework developed by Microsoft.
@@ -24,6 +29,7 @@ Rx.NET is used in this project to simplify the process of managing and reacting 
 - **Observable Sequences:** Represent streams of data that can emit values over time. These can be used to handle asynchronous operations and event-driven programming.
 
 ### 2. How is it Different from .NET?
+
 **Traditional .NET Events:**
 - Events in .NET are treated as "special" and have limitations compared to other objects and values.
 - Example: You can’t easily manipulate .NET events the same way you can with other data types.
@@ -31,7 +37,7 @@ Rx.NET is used in this project to simplify the process of managing and reacting 
 **Rx.NET Advantages:**
 - **Observable Sequences:** Allow you to treat events and asynchronous operations as first-class citizens.
 - **Composability:** Simplifies handling complex workflows and chaining asynchronous operations.
-  
+
 **Example from Code:**
 ```csharp
 private readonly BehaviorSubject<ObservableCollection<Contact>> _contactsSubject =
@@ -42,6 +48,7 @@ public IObservable<ObservableCollection<Contact>> ContactsStream => _contactsSub
 - Here, `_contactsSubject` is a `BehaviorSubject` that allows subscribers to react to changes in the contact list.
 
 ### 3. Observable Sequences
+
 **Definition:**
 - An observable sequence represents a stream of data that can emit values over time, allowing for asynchronous and event-based programming.
 
@@ -51,16 +58,60 @@ public IObservable<ObservableCollection<Contact>> ContactsStream => _contactsSub
 
 **Cold vs. Hot Observables:**
 - **Cold Observables:** Emit values only when an observer subscribes.
-  ```csharp
-  var coldObservable = Observable.Range(1, 3); // Cold Observable
+
+```csharp
+var coldObservable = Observable.Range(1, 3);
+
+coldObservable.Subscribe(x => Console.WriteLine($"First subscription: {x}"));
+coldObservable.Subscribe(x => Console.WriteLine($"Second subscription: {x}"));
+```
+
+- ***First Subscription***: When you first subscribe to `coldObservable`, it will output:
   ```
+  First subscription: 1
+  First subscription: 2
+  First subscription: 3
+  ```
+
+- ***Second Subscription***: The second subscription starts from scratch, outputting:
+  ```
+  Second subscription: 1
+  Second subscription: 2
+  Second subscription: 3
+  ```
+
 - **Hot Observables:** Emit values regardless of subscriptions.
-  ```csharp
-  var hotObservable = new Subject<int>(); // Hot Observable
-  hotObservable.OnNext(1);
+
+```csharp
+var hotObservable = new Subject<int>();
+
+// First subscription before emitting values
+hotObservable.Subscribe(x => Console.WriteLine($"First subscription: {x}"));
+
+// Emit a value
+hotObservable.OnNext(1); // First subscription receives this
+
+// Second subscription after the first value has already been emitted
+hotObservable.Subscribe(x => Console.WriteLine($"Second subscription: {x}"));
+
+// Emit another value
+hotObservable.OnNext(2); // Both subscriptions receive this
+```
+
+### Output
+- **First Subscription Output**:
+  ```
+  First subscription: 1
+  First subscription: 2
+  ```
+
+- **Second Subscription Output**:
+  ```
+  Second subscription: 2
   ```
 
 ### 4. Observers
+
 **Definition:**
 - Observers subscribe to observables to receive emitted values, handle errors, and manage the completion of the sequence.
 
@@ -86,6 +137,7 @@ public Contact SelectedContact
 - Here, `_selectedContactSubject` notifies subscribers whenever `SelectedContact` changes.
 
 ### 5. Subject
+
 **Definition:**
 - A `Subject` acts as both an observable and an observer. It can receive data (like an observer) and broadcast it to subscribers (like an observable).
 
@@ -111,6 +163,7 @@ public UpdateContactViewModel(Contact contact, ContactList contactList)
 - `_tempContactSubject` is a `BehaviorSubject` that provides the latest contact details to subscribers.
 
 ### 6. Operators
+
 **Definition:**
 - Operators are used to transform, filter, combine, and manipulate observable sequences.
 
@@ -133,13 +186,43 @@ public UpdateContactViewModel(Contact contact, ContactList contactList)
   ```
 
 ### 7. Schedulers
+
 **Definition:**
 - Schedulers control the execution context of observables and observers, determining where and when work is performed.
 
 **Key Concepts:**
 - **Schedulers:** Manage the execution of tasks (e.g., on the UI thread, background thread).
 
-### 8. Use Cases
+### 8. ReactiveCommand
+
+**Definition:**
+- A `ReactiveCommand` is a command that is tied to an observable sequence, allowing you to create commands that can be executed based on certain conditions or events.
+
+**Usage:**
+- `ReactiveCommand` simplifies command management in MVVM, especially when dealing with asynchronous tasks or complex workflows.
+
+**Example:**
+```csharp
+public ReactiveCommand<Unit, Unit> AddContactCommand { get; }
+
+public MainViewModel()
+{
+    AddContactCommand = ReactiveCommand.CreateFromTask(async () =>
+    {
+        // Code to add a contact
+        await AddContactAsync();
+    });
+
+    AddContactCommand.ThrownExceptions
+        .Subscribe(ex => Console.WriteLine($"Error: {ex.Message}"));
+}
+```
+- Here, `AddContactCommand` is a `ReactiveCommand` that triggers the `AddContactAsync` method. It also handles any exceptions thrown during execution and logs them.
+
+---
+
+### 9. Use Cases
+
 **Common Applications:**
 - **User Interface (UI) Events:** Handling streams of UI events like button clicks.
 - **Real-Time Data Processing:** Applications like stock tickers and chat systems.
