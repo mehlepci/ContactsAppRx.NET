@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\viewmodels\\mainviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\viewmodels\\mainviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\viewmodels\\createcontactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\viewmodels\\createcontactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\models\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\models\\contactlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\viewmodels\\updatecontactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\viewmodels\\updatecontactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\views\\createcontactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\views\\createcontactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\views\\createcontactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\views\\createcontactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\views\\updatecontactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\views\\updatecontactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|c:\\users\\basak\\desktop\\internship\\assignments\\internassignment\\contactapprx\\contactapprx\\views\\updatecontactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93DF503D-03D1-4BA8-BF42-340F246CC556}|ContactAppRX\\ContactAppRX.csproj|solutionrelative:contactapprx\\views\\updatecontactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 264,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\ViewModels\\MainViewViewModel.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\ViewModels\\MainViewViewModel.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\ViewModels\\MainViewViewModel.cs",
+              "RelativeToolTip": "ContactAppRX\\ViewModels\\MainViewViewModel.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA3wDIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:19:33.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateContactViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\ViewModels\\UpdateContactViewModel.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\ViewModels\\UpdateContactViewModel.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\ViewModels\\UpdateContactViewModel.cs",
+              "RelativeToolTip": "ContactAppRX\\ViewModels\\UpdateContactViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:19:32.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateContactViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\ViewModels\\CreateContactViewModel.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\ViewModels\\CreateContactViewModel.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\ViewModels\\CreateContactViewModel.cs",
+              "RelativeToolTip": "ContactAppRX\\ViewModels\\CreateContactViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:19:39.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactList.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Models\\ContactList.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\Models\\ContactList.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Models\\ContactList.cs",
+              "RelativeToolTip": "ContactAppRX\\Models\\ContactList.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswE4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:03:59.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateContactView.xaml",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\CreateContactView.xaml",
+              "RelativeDocumentMoniker": "ContactAppRX\\Views\\CreateContactView.xaml",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\CreateContactView.xaml",
+              "RelativeToolTip": "ContactAppRX\\Views\\CreateContactView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T10:22:52.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Models\\Contact.cs",
+              "RelativeToolTip": "ContactAppRX\\Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:31:26.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateContactView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\CreateContactView.xaml.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\Views\\CreateContactView.xaml.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\CreateContactView.xaml.cs",
+              "RelativeToolTip": "ContactAppRX\\Views\\CreateContactView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:33:41.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ContactAppRX\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:16:42.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ContactAppRX\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\MainWindow.xaml",
+              "RelativeToolTip": "ContactAppRX\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T08:16:14.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\App.xaml.cs",
+              "RelativeToolTip": "ContactAppRX\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:30:53.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\App.xaml",
+              "RelativeDocumentMoniker": "ContactAppRX\\App.xaml",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\App.xaml",
+              "RelativeToolTip": "ContactAppRX\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T10:30:47.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateContactView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\UpdateContactView.xaml.cs",
+              "RelativeDocumentMoniker": "ContactAppRX\\Views\\UpdateContactView.xaml.cs",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\UpdateContactView.xaml.cs",
+              "RelativeToolTip": "ContactAppRX\\Views\\UpdateContactView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:33:30.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateContactView.xaml",
+              "DocumentMoniker": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\UpdateContactView.xaml",
+              "RelativeDocumentMoniker": "ContactAppRX\\Views\\UpdateContactView.xaml",
+              "ToolTip": "C:\\Users\\basak\\Desktop\\Internship\\Assignments\\InternAssignment\\ContactAppRX\\ContactAppRX\\Views\\UpdateContactView.xaml",
+              "RelativeToolTip": "ContactAppRX\\Views\\UpdateContactView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-26T10:34:23.893Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

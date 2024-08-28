@@ -1,0 +1,63 @@
+﻿<dx:ThemedWindow
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+    xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
+    xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    x:Class="ContactAppRX.MainWindow"
+    Title="Contacts App" Height="800" Width="1000"
+    WindowKind="Auto">
+
+    <DockPanel>
+        <!-- RibbonControl for Commands -->
+        <dxr:RibbonControl DockPanel.Dock="Top" RibbonStyle="Office2019">
+            <dxr:RibbonDefaultPageCategory>
+                <dxr:RibbonPage Caption="Home">
+                    <dxr:RibbonPageGroup Caption="Contacts">
+                        <dxb:BarButtonItem Content="Add Contact" Command="{Binding AddCommand}"/>
+                        <dxb:BarButtonItem Content="Update Contact" Command="{Binding UpdateCommand}" IsEnabled="{Binding CanModifyContact}"/>
+                        <dxb:BarButtonItem Content="Delete Contact" Command="{Binding DeleteCommand}" IsEnabled="{Binding CanModifyContact}"/>
+                    </dxr:RibbonPageGroup>
+
+                    <dxr:RibbonPageGroup Caption="View">
+                        <dxb:BarButtonItem Content="Show Favorites" Command="{Binding ShowFavoritesCommand}"/>
+                        <dxb:BarButtonItem Content="Show All Contacts" Command="{Binding ShowAllContactsCommand}"/>
+                    </dxr:RibbonPageGroup>
+
+                    <dxr:RibbonPageGroup Caption="Sort">
+                        <dxb:BarButtonItem Content="Sort by First Name"  Command="{Binding SortByFirstNameCommand}"/>
+                        <dxb:BarButtonItem Content="Sort by Last Name"  Command="{Binding SortByLastNameCommand}"/>
+                    </dxr:RibbonPageGroup>
+
+                    <!-- New RibbonPageGroup for Theme Switching -->
+                    <dxr:RibbonPageGroup Caption="Themes">
+                        <dxb:BarButtonItem Content="Light Mode" Command="{Binding SwitchToLightModeCommand}"/>
+                        <dxb:BarButtonItem Content="Dark Mode"  Command="{Binding SwitchToDarkModeCommand}"/>
+                    </dxr:RibbonPageGroup>
+
+                </dxr:RibbonPage>
+            </dxr:RibbonDefaultPageCategory>
+        </dxr:RibbonControl>
+
+        <!-- Status Bar -->
+        <dxr:RibbonStatusBarControl DockPanel.Dock="Bottom">
+            <dxr:RibbonStatusBarControl.RightItems>
+                <dxb:BarButtonItem Content="Print"/>
+            </dxr:RibbonStatusBarControl.RightItems>
+        </dxr:RibbonStatusBarControl>
+
+        <dxc:GridControl ItemsSource="{Binding Contacts}" SelectedItem="{Binding SelectedContact, Mode=TwoWay}" DockPanel.Dock="Left" Margin="10">
+            <dxc:GridControl.Columns>
+                <dxc:GridColumn FieldName="FirstName" Header="First Name" Width="200"/>
+                <dxc:GridColumn FieldName="LastName" Header="Last Name" Width="200"/>
+                <dxc:GridColumn FieldName="PhoneNumber" Header="Phone Number" Width="200"/>
+                <dxc:GridColumn FieldName="Email" Header="Email" Width="200"/>
+                <dxc:GridColumn FieldName="Address" Header="Address" Width="200"/>
+                <dxc:GridColumn FieldName="Favorite" Header="Favorite" Width="200"/>
+            </dxc:GridControl.Columns>
+        </dxc:GridControl>
+
+    </DockPanel>
+</dx:ThemedWindow>

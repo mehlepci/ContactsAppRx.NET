@@ -1,0 +1,72 @@
+[
+  {
+    "FirstName": "J.K.",
+    "LastName": "Rowling",
+    "PhoneNumber": "+99999999999",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "rowlingjk@gmail.com",
+    "Address": "UK",
+    "IsFavorite": false
+  },
+  {
+    "FirstName": "Hades",
+    "LastName": "Hadesov",
+    "PhoneNumber": "+666 ",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "ha_des420@gmail.com",
+    "Address": "Tartarus",
+    "IsFavorite": false
+  },
+  {
+    "FirstName": "Aleksandar",
+    "LastName": "Vučić",
+    "PhoneNumber": "+381 00000000",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "vucicmucic@hotmail.com",
+    "Address": "Serbia",
+    "IsFavorite": false
+  },
+  {
+    "FirstName": "Başak",
+    "LastName": "Mehlepçi",
+    "PhoneNumber": "+905529464618",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "mehlepci20@itu.edu.tr",
+    "Address": "Turkey",
+    "IsFavorite": true
+  },
+  {
+    "FirstName": "Spongebob",
+    "LastName": "Squarepants",
+    "PhoneNumber": "+123456789",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "bob.the.sponge@outlook.com",
+    "Address": "UnderTheSea",
+    "IsFavorite": true
+  },
+  {
+    "FirstName": "Timothée",
+    "LastName": "Chalamet",
+    "PhoneNumber": "+987987987987",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "timotheechalamet@info.com",
+    "Address": "FrogCity",
+    "IsFavorite": false
+  },
+  {
+    "FirstName": "dsljfhsdf",
+    "LastName": "bdsufklsjfdkl",
+    "PhoneNumber": "djsflsjfsflşk",
+    "AdditionalPhoneNumbers": [],
+    "AdditionalEmails": [],
+    "Email": "kjsdfklsjdfds",
+    "Address": "lşdsfklsş",
+    "IsFavorite": false
+  }
+]
